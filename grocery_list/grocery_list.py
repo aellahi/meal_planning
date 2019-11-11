@@ -21,7 +21,7 @@ summed_ingredients.reset_index(inplace=True)
 # Load ToDoist project
 
 #define token
-token='55d2e370c57338fb259642de78bab09867742518'
+token=''
 
 api = TodoistAPI(token=token)
 api.sync()
