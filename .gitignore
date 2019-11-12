@@ -1,3 +1,9 @@
+# system files
 .DS_store
 .python-version
-todoist_token.txt
+
+# login credentials
+todoist_login.json
+
+# recipe .csvs
+*.csv
