@@ -31,7 +31,7 @@ groceries = user.get_project('Groceries')
 
 # iterate through summed_ingredients and add to Groceries
 for row in summed_ingredients.itertuples():
-    tup=(row.ingredient, row.amt)
+    tup=(row.ingredient, row.amt, row.unit)
     str_list = [x for x in map(str,tup)]
     to_add = ' '.join(str_list)
     added = groceries.add_task(to_add)
