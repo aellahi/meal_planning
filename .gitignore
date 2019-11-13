@@ -6,4 +6,4 @@
 todoist_login.json
 
 # recipe .csvs
-*.csv
+recipes/recipe_files/*.csv
