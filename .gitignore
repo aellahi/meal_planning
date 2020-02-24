@@ -1,6 +1,7 @@
 # system files
 .DS_store
 .python-version
+__pychache__/*
 
 # login credentials
 todoist_login.json
